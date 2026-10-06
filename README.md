@@ -226,8 +226,24 @@ or a numeric identifier supported by the Telegram Bot API.
 
 ---
 
-## 5. Install the Shortcut
+## 5. Create the Backup Album
 
+Open the Apple Photos app on your iPhone and create a new album named exactly:
+
+```text
+Telegram Backup
+```
+
+The Shortcut uses this specific album to verify whether a photo has already been uploaded or not.
+
+---
+
+## 6. Install the Shortcut
+
+**Option 1: iCloud Link (Recommended)**  
+[Install Photo2Telegram Shortcut](https://www.icloud.com/shortcuts/161a2301deda427aa7a99755945ff103)  
+
+**Option 2: Manual Installation**  
 Download the Photo2Telegram Shortcut from this repository.
 
 The Shortcut file can be found inside:
@@ -248,7 +264,7 @@ Review all Shortcut actions before running it.
 
 ---
 
-## 6. Configure the Shortcut
+## 7. Configure the Shortcut
 
 The Shortcut requires your Telegram configuration.
 
