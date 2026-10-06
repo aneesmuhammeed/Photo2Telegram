@@ -470,3 +470,4 @@ Photo2Telegram is an independent open-source project and is not affiliated with,
 Apple, iPhone, iOS, and Shortcuts are trademarks of Apple Inc.
 
 Telegram is a trademark of its respective owner.
+
