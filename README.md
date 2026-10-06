@@ -270,82 +270,14 @@ The Shortcut requires your Telegram configuration.
 
 Replace the placeholder values with your own credentials.
 
-Example:
+Example of what it should look like after you paste your details:
 
 ```text
-BOT_TOKEN = YOUR_TELEGRAM_BOT_TOKEN
-CHANNEL_ID = YOUR_TELEGRAM_CHANNEL_ID
+BOT_TOKEN = 123456789:ABCDefghIJKLmnopQRSTuvwxYZ12345
+CHANNEL_ID = @my_photo_backup
 ```
+*(Note: If your channel is private, your CHANNEL_ID might be a long negative number like `-1001234567890` instead of a `@username`)*
 
-Never commit your real Bot Token to GitHub.
-
----
-
-# 🔐 Security Warning
-
-Your Telegram Bot Token is effectively a credential.
-
-Anyone who obtains the token may be able to interact with your bot according to its permissions.
-
-**Never publish your Bot Token.**
-
-Do not place your personal token inside:
-
-```text
-README.md
-screenshots/
-documentation/
-GitHub Issues
-GitHub Discussions
-commits
-```
-
-Before publishing screenshots of the Shortcut, verify that the Bot Token, channel identifiers, personal photos, names, or other sensitive information are not visible.
-
-If a Bot Token is accidentally published, revoke/regenerate it using BotFather as soon as possible.
-
----
-
-# 🔏 Privacy
-
-Photo2Telegram handles personal photos, so users should understand where their data is being sent.
-
-The Shortcut sends selected photos to the Telegram Bot API and ultimately to the Telegram channel configured by the user.
-
-Users are responsible for:
-
-- Securing their Telegram account
-- Securing their Telegram Bot Token
-- Configuring appropriate channel privacy
-- Reviewing the Shortcut before installation
-- Understanding Telegram's privacy and data-storage policies
-
-This project does not provide its own cloud-storage infrastructure.
-
----
-
-# 📁 Repository Structure
-
-```text
-Photo2Telegram/
-│
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-│
-├── shortcut/
-│   └── Photo2Telegram.shortcut
-│
-├── screenshots/
-│   ├── workflow.png
-│   ├── setup.png
-│   └── telegram-result.png
-│
-└── docs/
-    └── setup.md
-```
-
----
 
 # 📱 Requirements
 
@@ -362,33 +294,6 @@ The exact iOS version tested should be documented with each release.
 
 ---
 
-# ⚠️ Important
-
-Always test the Shortcut with non-important photos before enabling a fully automated workflow.
-
-Photo2Telegram interacts with your photo library and an external service. Users should understand every action in the Shortcut before granting permissions or enabling automation.
-
-It is recommended to keep an independent backup of important photos.
-
----
-
-# 🧪 Testing
-
-Before submitting changes or using the Shortcut with your main photo library, test:
-
-- Single photo upload
-- Multiple photo upload
-- Telegram Bot authentication
-- Channel posting
-- Duplicate prevention
-- Telegram Backup album handling
-- Failed upload behavior
-- Network interruption behavior
-- Shortcut permissions
-
-Contributors should mention their tested iOS version when submitting changes.
-
----
 
 # 🤝 Contributing
 
@@ -439,7 +344,6 @@ Additional Information:
 
 Potential future features include:
 
-- Video backup
 - Configurable photo batch size
 - Retry handling for failed uploads
 - Better upload progress information
