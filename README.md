@@ -411,6 +411,8 @@ You can also support the project by:
 - Testing the Shortcut
 - Submitting Pull Requests
 
+For more inquiries, you can reach out directly via WhatsApp: **8078830836**
+
 ---
 
 ## Disclaimer
