@@ -158,6 +158,8 @@ Open Telegram and search for:
 @BotFather
 ```
 
+![Search for BotFather](assets/a1.jpeg)
+
 Start a conversation and create a bot using:
 
 ```text
@@ -167,6 +169,8 @@ Start a conversation and create a bot using:
 Follow BotFather's instructions.
 
 After creating your bot, Telegram will provide a Bot Token.
+
+![Get Bot Token](assets/a2.jpeg)
 
 It will look similar to:
 
@@ -178,25 +182,35 @@ Keep this token private.
 
 ---
 
-## 2. Create a Telegram Channel
+## 2. Create a Telegram Channel (or Group)
 
-Create a new Telegram channel that will be used for your photo backups.
+Create a new Telegram channel or group that will be used for your photo backups.
 
-For example:
+![Create New Group or Channel](assets/a3.jpeg)
+
+You can add your newly created bot to the group right away.
+
+![Add bot to Group](assets/a4.jpeg)
+
+Give it a name. For example:
+
+![Name the Group](assets/a5.jpeg)
 
 ```text
 My Photo Backup
 ```
 
-The channel can be configured according to your privacy requirements.
+The channel or group can be configured according to your privacy requirements.
 
-For personal photo backups, using a private channel is recommended.
+For personal photo backups, using a private channel or group is recommended.
 
 ---
 
 ## 3. Add the Bot to the Channel
 
-Open your Telegram channel settings.
+Open your Telegram channel or group settings.
+
+![Open Settings](assets/a6.jpeg)
 
 Navigate to:
 
@@ -204,9 +218,23 @@ Navigate to:
 Administrators
 ```
 
-Add your Telegram Bot as an administrator.
+![Navigate to Administrators](assets/a7.jpeg)
+
+![Navigate to Add Admin](assets/a8.jpeg)
+
+Click on **Add Admin** and search for your bot.
+
+![Search for your Bot](assets/a9.jpeg)
+
+Select your Telegram Bot to add it as an administrator.
 
 Give the bot the permissions required to post messages/media to the channel.
+
+![Assign Admin Rights](assets/a10.jpeg)
+
+Once you are done, the bot will appear as an Admin.
+
+![Bot Added as Admin](assets/a11.jpeg)
 
 ---
 
@@ -241,7 +269,7 @@ The Shortcut uses this specific album to verify whether a photo has already been
 ## 6. Install the Shortcut
 
 **Option 1: iCloud Link (Recommended)**  
-[Install Photo2Telegram Shortcut](https://www.icloud.com/shortcuts/161a2301deda427aa7a99755945ff103)  
+[Install Photo2Telegram Shortcut](https://www.icloud.com/shortcuts/37152779aace4acca4487d1dd16a9ad5)  
 
 **Option 2: Manual Installation**  
 Download the Photo2Telegram Shortcut from this repository.
@@ -269,6 +297,8 @@ Review all Shortcut actions before running it.
 The Shortcut requires your Telegram configuration.
 
 Replace the placeholder values with your own credentials.
+
+![Configure the Shortcut](assets/a12.jpeg)
 
 Example of what it should look like after you paste your details:
 
