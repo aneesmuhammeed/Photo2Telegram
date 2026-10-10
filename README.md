@@ -1,6 +1,6 @@
 # 📸 Photo2Telegram
 
-Photo2Telegram is an open-source **Apple Shortcut for iPhone** that automatically backs up photos to a **Telegram channel**.
+Photo2Telegram is an open-source **Apple Shortcut for iPhone** that automatically backs up photos to a **Telegram group**.
 
 The Shortcut identifies photos that need to be backed up, uploads multiple photos to Telegram using a Telegram Bot, and moves successfully processed photos into a dedicated **Telegram Backup** album/folder to prevent duplicate uploads.
 
@@ -11,14 +11,14 @@ The project is designed to provide a simple, customizable photo-backup workflow 
 ## ✨ Features
 
 - 📸 Automatically processes photos from your iPhone
-- 📤 Uploads photos to a Telegram channel
+- 📤 Uploads photos to a Telegram group
 - 🖼️ Supports multiple photos in a single run
 - 🔄 Supports automation through Apple Shortcuts
 - 🗂️ Organizes backed-up photos into a dedicated Telegram Backup album/folder
 - 🚫 Prevents previously processed photos from being uploaded repeatedly
 - 🤖 Uses the Telegram Bot API for uploads
 - 📱 Runs using Apple's built-in Shortcuts application
-- ⚙️ Configurable with your own Telegram Bot and Telegram channel
+- ⚙️ Configurable with your own Telegram Bot and Telegram group
 - 🔓 Open source and customizable
 - 💻 No separate iOS application is required
 
@@ -46,7 +46,7 @@ Process Multiple Photos
 Telegram Bot API
       │
       ▼
-Telegram Channel
+Telegram Group
       │
       ▼
 Successful Upload
@@ -141,9 +141,9 @@ You will need:
 
 1. A Telegram account
 2. A Telegram Bot
-3. A Telegram channel
+3. A Telegram group
 4. The Bot Token
-5. The Telegram Channel ID or username
+5. The Telegram Group ID
 6. Apple Shortcuts on your iPhone
 
 ---
@@ -182,11 +182,11 @@ Keep this token private.
 
 ---
 
-## 2. Create a Telegram Channel (or Group)
+## 2. Create a Telegram Group
 
-Create a new Telegram channel or group that will be used for your photo backups.
+Create a new Telegram group that will be used for your photo backups.
 
-![Create New Group or Channel](assets/a3.jpeg)
+![Create New Group](assets/a3.jpeg)
 
 You can add your newly created bot to the group right away.
 
@@ -200,15 +200,15 @@ Give it a name. For example:
 My Photo Backup
 ```
 
-The channel or group can be configured according to your privacy requirements.
+The group can be configured according to your privacy requirements.
 
-For personal photo backups, using a private channel or group is recommended.
+For personal photo backups, using a private group is recommended.
 
 ---
 
-## 3. Add the Bot to the Channel
+## 3. Add the Bot to the Group
 
-Open your Telegram channel or group settings.
+Open your Telegram group settings.
 
 ![Open Settings](assets/a6.jpeg)
 
@@ -228,7 +228,7 @@ Click on **Add Admin** and search for your bot.
 
 Select your Telegram Bot to add it as an administrator.
 
-Give the bot the permissions required to post messages/media to the channel.
+Give the bot the permissions required to post messages/media to the group.
 
 ![Assign Admin Rights](assets/a10.jpeg)
 
@@ -238,19 +238,26 @@ Once you are done, the bot will appear as an Admin.
 
 ---
 
-## 4. Obtain Your Channel Identifier
+## 4. Obtain Your Group Identifier
 
-Photo2Telegram needs to know which Telegram channel should receive the photos.
+Photo2Telegram needs to know which Telegram group should receive the photos.
 
-Depending on your configuration, this may be a channel username or numeric channel identifier.
+Your Group ID will be a negative number (e.g., `-1001234567890`).
 
-Example:
+You can easily find your Group ID using a bot like `@ForwardMsgGetBot`:
 
-```text
-@my_photo_backup
-```
+1. Search for **@ForwardMsgGetBot** in Telegram and start a chat.
+2. Tap the **Group ID** button.
 
-or a numeric identifier supported by the Telegram Bot API.
+![Select Group ID](assets/a13.jpeg)
+
+3. Telegram will prompt you to choose a chat. Select your newly created group and confirm sending it to the bot.
+
+![Share Group to Bot](assets/a14.jpeg)
+
+4. The bot will instantly reply with your Group ID. Make sure to copy the full number, including the minus sign (`-`).
+
+![Copy Group ID](assets/a15.jpeg)
 
 ---
 
@@ -304,9 +311,8 @@ Example of what it should look like after you paste your details:
 
 ```text
 BOT_TOKEN = 123456789:ABCDefghIJKLmnopQRSTuvwxYZ12345
-CHANNEL_ID = @my_photo_backup
+GROUP_ID = -1001234567890
 ```
-*(Note: If your channel is private, your CHANNEL_ID might be a long negative number like `-1001234567890` instead of a `@username`)*
 
 
 # 📱 Requirements
@@ -317,7 +323,7 @@ You will need:
 - Apple Shortcuts
 - Telegram
 - A Telegram Bot
-- A Telegram channel
+- A Telegram group
 - Internet connectivity
 
 The exact iOS version tested should be documented with each release.
