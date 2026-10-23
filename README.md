@@ -1,6 +1,6 @@
 # 📸 Photo2Telegram
 
-> 📹 **Setup & Reference Video:** [Watch the Step-by-Step Setup Video on Google Drive](https://drive.google.com/file/d/1CsPdDeJPuAau-fyg1TuxIl2ZBvzwFp5s/view?usp=drivesdk)  
+> 📹 **Setup & Reference Video:** [Watch the Step-by-Step Setup Video on Google Drive](https://drive.google.com/file/d/1_J3rvU6z7Or86R-iMXzN3F8Qt59i02AX/view)  
 > 💬 **Contact for More Details:** Reach out directly via WhatsApp at [**8078830836**](https://wa.me/918078830836)
 
 Photo2Telegram is an open-source **Apple Shortcut for iPhone** that automatically backs up photos to a **Telegram group**.
@@ -168,7 +168,7 @@ You will need:
 
 # 🛠️ Setup
 
-> 💡 **Prefer a visual guide?** Follow along with the [Setup Video Tutorial](https://drive.google.com/file/d/1CsPdDeJPuAau-fyg1TuxIl2ZBvzwFp5s/view?usp=drivesdk).  
+> 💡 **Prefer a visual guide?** Follow along with the [Setup Video Tutorial](https://drive.google.com/file/d/1_J3rvU6z7Or86R-iMXzN3F8Qt59i02AX/view).  
 > ⚠️ **First-Time Prerequisite:** Remember to enable **Allow Sharing Large Amounts of Data** under *Settings ➔ Apps ➔ Shortcuts ➔ Advanced* ([see details & screenshot above](#️-important-prerequisite-first-time-setup)).
 
 ## 1. Create a Telegram Bot
@@ -297,7 +297,7 @@ The Shortcut uses this specific album to verify whether a photo has already been
 ## 6. Install the Shortcut
 
 **Option 1: iCloud Link (Recommended)**  
-[Install Photo2Telegram Shortcut](https://www.icloud.com/shortcuts/37152779aace4acca4487d1dd16a9ad5)  
+[Install Photo2Telegram Shortcut](https://www.icloud.com/shortcuts/ba4e28287e13441790dc2105131cfafb)  
 
 **Option 2: Manual Installation**  
 Download the Photo2Telegram Shortcut from this repository.
