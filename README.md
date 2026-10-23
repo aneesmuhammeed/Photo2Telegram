@@ -1,5 +1,7 @@
 # 📸 Photo2Telegram
 
+> 📹 **Setup & Reference Video:** [Watch the Step-by-Step Setup Video on Google Drive](https://drive.google.com/file/d/1CsPdDeJPuAau-fyg1TuxIl2ZBvzwFp5s/view?usp=drivesdk)
+
 Photo2Telegram is an open-source **Apple Shortcut for iPhone** that automatically backs up photos to a **Telegram group**.
 
 The Shortcut identifies photos that need to be backed up, uploads multiple photos to Telegram using a Telegram Bot, and moves successfully processed photos into a dedicated **Telegram Backup** album/folder to prevent duplicate uploads.
@@ -149,6 +151,8 @@ You will need:
 ---
 
 # 🛠️ Setup
+
+> 💡 **Prefer a visual guide?** Follow along with the [Setup Video Tutorial](https://drive.google.com/file/d/1CsPdDeJPuAau-fyg1TuxIl2ZBvzwFp5s/view?usp=drivesdk).
 
 ## 1. Create a Telegram Bot
 
