@@ -1,12 +1,28 @@
 # 📸 Photo2Telegram
 
-> 📹 **Setup & Reference Video:** [Watch the Step-by-Step Setup Video on Google Drive](https://drive.google.com/file/d/1CsPdDeJPuAau-fyg1TuxIl2ZBvzwFp5s/view?usp=drivesdk)
+> 📹 **Setup & Reference Video:** [Watch the Step-by-Step Setup Video on Google Drive](https://drive.google.com/file/d/1CsPdDeJPuAau-fyg1TuxIl2ZBvzwFp5s/view?usp=drivesdk)  
+> 💬 **Contact for More Details:** Reach out directly via WhatsApp at [**8078830836**](https://wa.me/918078830836)
 
 Photo2Telegram is an open-source **Apple Shortcut for iPhone** that automatically backs up photos to a **Telegram group**.
 
 The Shortcut identifies photos that need to be backed up, uploads multiple photos to Telegram using a Telegram Bot, and moves successfully processed photos into a dedicated **Telegram Backup** album/folder to prevent duplicate uploads.
 
 The project is designed to provide a simple, customizable photo-backup workflow using Apple Shortcuts and Telegram without requiring a dedicated iOS application.
+
+---
+
+## ⚠️ Important Prerequisite (First-Time Setup)
+
+> [!IMPORTANT]
+> If you are running the shortcut for the first time, you **must enable large data sharing** in iOS Settings. Without this permission, Apple Shortcuts will block media uploads and the backup will fail.
+
+### Step-by-Step Fix:
+1. Open **Settings** on your iPhone.
+2. Go to **Apps** ➔ **Shortcuts** *(or scroll down to **Shortcuts** on iOS 17 & earlier)*.
+3. Tap **Advanced**.
+4. Turn **ON** 👉 **"Allow Sharing Large Amounts of Data"**.
+
+![Allow Sharing Large Amounts of Data in Shortcuts](assets/shortcuts-permission.jpg)
 
 ---
 
@@ -152,7 +168,8 @@ You will need:
 
 # 🛠️ Setup
 
-> 💡 **Prefer a visual guide?** Follow along with the [Setup Video Tutorial](https://drive.google.com/file/d/1CsPdDeJPuAau-fyg1TuxIl2ZBvzwFp5s/view?usp=drivesdk).
+> 💡 **Prefer a visual guide?** Follow along with the [Setup Video Tutorial](https://drive.google.com/file/d/1CsPdDeJPuAau-fyg1TuxIl2ZBvzwFp5s/view?usp=drivesdk).  
+> ⚠️ **First-Time Prerequisite:** Remember to enable **Allow Sharing Large Amounts of Data** under *Settings ➔ Apps ➔ Shortcuts ➔ Advanced* ([see details & screenshot above](#️-important-prerequisite-first-time-setup)).
 
 ## 1. Create a Telegram Bot
 
@@ -329,6 +346,7 @@ You will need:
 - A Telegram Bot
 - A Telegram group
 - Internet connectivity
+- **Shortcut Permission:** Enable **"Allow Sharing Large Amounts of Data"** in *Settings ➔ Apps ➔ Shortcuts ➔ Advanced*
 
 The exact iOS version tested should be documented with each release.
 
@@ -421,7 +439,7 @@ You can also support the project by:
 - Testing the Shortcut
 - Submitting Pull Requests
 
-For more inquiries, you can reach out directly via WhatsApp: **8078830836**
+For more inquiries, you can reach out directly via WhatsApp: [**8078830836**](https://wa.me/918078830836)
 
 ---
 
