@@ -1,7 +1,8 @@
 # 📸 Photo2Telegram
 
-> 📹 **Setup & Reference Video:** [Watch the Step-by-Step Setup Video on Google Drive](https://drive.google.com/file/d/1_J3rvU6z7Or86R-iMXzN3F8Qt59i02AX/view)  
-> 💬 **Contact for More Details:** Reach out directly via WhatsApp at [**8078830836**](https://wa.me/918078830836)
+> 📲 **iCloud Link:** [Install Photo2Telegram Shortcut](https://www.icloud.com/shortcuts/ba4e28287e13441790dc2105131cfafb)  
+> 📹 **Reference Video:** [Watch the Step-by-Step Setup Video on Google Drive](https://drive.google.com/file/d/1_J3rvU6z7Or86R-iMXzN3F8Qt59i02AX/view)  
+> 💬 **Phone Number:** Reach out directly via WhatsApp at [**8078830836**](https://wa.me/918078830836)
 
 Photo2Telegram is an open-source **Apple Shortcut for iPhone** that automatically backs up photos to a **Telegram group**.
 
